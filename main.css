@@ -143,9 +143,9 @@ background: transparent;
        
 #disqus_thread{
   
-  padding:       2px 0px 0px 0px;
+  padding:       2px 0px 0px 2px;
   color:         white;
-  /*background:    transparent;*/
+  background:    pink;
   /*font-size:     0.8em;*/
  
     float:  left;
