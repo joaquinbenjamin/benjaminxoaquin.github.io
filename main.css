@@ -33,21 +33,15 @@ body {
 
 
 .barra{
-    background: transparent ;/**  blue;  **/
+  background: transparent ;/**  blue;  **/
 	border-top:      1px #136c13;
 	border-left:     1px #136c13;
 	border-right:    1px #136c13;
-        border-bottom:   1px solid #136c13;
-	
-    float:  left;
-    width: 95%;
-    margin: 2px 2px 2px 2% ;
-	
-  /*font-size:   1.5em;*/
-  
- font-size:  120%;
-
-	
+  border-bottom:   1px solid #136c13;
+  float:  left;
+  width: 95%;
+  margin: 2px 2px 2px 2% ;
+  font-size:  120%;
 }
  
 .barra UL {
