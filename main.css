@@ -8,7 +8,7 @@ body {
  
   font-size:   100%;
    max-width: 80%;
-    min-width: 525px; 
+    /*min-width: 525px; */
    margin: 0px auto;
   /*  background-color :cornsilk;*/
   background-color : black;
@@ -42,6 +42,12 @@ body {
   width: 95%;
   margin: 2px 2px 2px 2% ;
   font-size:  120%;
+ 
+}
+
+@media (max-width: 525px) { 
+  .barra{display: flex;}
+
 }
  
 .barra UL {
@@ -177,6 +183,7 @@ background: transparent;
      display:inline-flex;
      flex-direction: row;
      padding:       0px 0px 3% 5%;
+    
          }
 
          #carpeta p{
@@ -198,25 +205,27 @@ background: transparent;
 
      display:inline-flex;
      flex-direction: column;
-     width: 70%;
+     width: 100%;
     
 }
 
 #carpeta p{text-align: left;}
 #descripcion{
   display: flex;
+  flex-direction: column;
   width: 100%;
-  padding:       0px 0px 0px 0%;
+ 
 }
 
 #porta {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
 #porta img{ 
   display: flex;
-  width: 100%;
+  min-width: 100px;
 }
 
 
@@ -244,8 +253,19 @@ background: transparent;
   
   
     padding: 0px 0px 0px 0px;
-    float: left;
+   float: left;
    
+   
+}
+
+@media (max-width: 525px) { 
+#tools{
+
+  min-width: 100%;
+  float: center;
+   
+
+}
 }
 
 #tools img {
