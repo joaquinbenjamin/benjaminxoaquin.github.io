@@ -1,23 +1,30 @@
 body {
 	
-	 background-image: url("imagenes/fondo.png");
+ background-image: url("imagenes/fondo.png");
   /*margin: 0;*/
+  background-color : white;
+ 
+ 
+}
+
+.contenedor{
   padding: 0;
   font-family: helvetica,arial,freesans,clean,sans-serif;
   color: white;   /* colot texto dentro del body*/
  
   font-size:   100%;
-   max-width: 525px;
-    /*min-width: 525px; */
+  /* max-width: 70%;*/
+ width: 350px;
    margin: 0px auto;
   /*  background-color :cornsilk;*/
   background-color : black;
  
   border: 1px solid whitesmoke;
   border-radius: 30px;
- 
-}
-
+  display: flex;
+  flex-direction: column;
+  
+  }
 
 
 
@@ -36,36 +43,60 @@ body {
 
 
 .barra{
-  background: transparent ;/**  blue;  **/
-	border-top:      1px #136c13;
+ /* background: green;*  blue;  **/
+	border-top:      1px solid#136c13;
 	border-left:     1px #136c13;
 	border-right:    1px #136c13;
   border-bottom:   1px solid #136c13;
-  float:  left;
-  width: 95%;
-  margin: 2px 2px 2px 2% ;
-  font-size:  120%;
- 
+  width: 100%;
+ /* margin: 2px 2px 2px 2% ;*/
+  font-size:  100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+ align-items: center;
 }
 
+/*
 @media (max-width: 525px) { 
-  .barra{display: flex;}
+  .barra{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+  }
+ 
 
-}
+} */
  
 .barra UL {
     list-style: none outside none;
-    margin: 2px 2px 2px 2px;
+    margin: 2px 0px 2px 2px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+
    
 }
 
+.barra li {
+  
+  width: 33%;
+ /* background: blue;*/
+
+ 
+}
+
 .barra SPAN {
-    background: transparent;
-    display: block;
-    float: left;
+    /*background: blue;*/
     padding: 5px 9px;
     white-space: nowrap;
 	 color: white;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+
+  
   
 } 
 
@@ -146,10 +177,7 @@ background: transparent;
 
 
 
-.contenedor{
-width: 100%;
 
-}
 
 
 #about {
@@ -180,10 +208,10 @@ background: transparent;
 background: transparent;
 
      color:         white;
-        width:      60%;
+        width:      90%;
         
      display:inline-flex;
-     flex-direction: column;
+     flex-direction: row;
      padding:       0px 0px 3% 5%;
     
 
@@ -208,7 +236,7 @@ background: transparent;
 
      display:inline-flex;
      flex-direction: column;
-     width: 80%;
+     width: 90%;
     
 }
 
@@ -251,7 +279,7 @@ background: transparent;
     
 #tools {
  
-    max-width:   30%; 
+    max-width:   90%; 
     margin:     0% 0% 0% 2% ;
   
   
@@ -307,16 +335,14 @@ width: 100%;
 }
 
 #foot{
-  width: 100%;
-  float: right;
-
-  
-
-
+  width: 320px;
+  float:inline-end;
+  color:         white;
 }
+
 #foot div {
-  width:20%;
-  float: right;
+  width:100%;
+ /* float: left; */
 }
 
 @media (max-width: 525px) { 
