@@ -14,7 +14,7 @@ body {
  
   font-size:   100%;
   /* max-width: 70%;*/
- width: 350px;
+ width: 290px;
    margin: 0px auto;
   /*  background-color :cornsilk;*/
   background-color : black;
@@ -279,8 +279,8 @@ background: transparent;
     
 #tools {
  
-    max-width:   90%; 
-    margin:     0% 0% 0% 2% ;
+    max-width:   98%; 
+    margin:     2% 2% 2% 2% ;
   
   
     padding: 0px 0px 0px 0px;
