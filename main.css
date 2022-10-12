@@ -12,9 +12,9 @@ body {
   font-family: helvetica,arial,freesans,clean,sans-serif;
   color: white;   /* colot texto dentro del body*/
  
-  font-size:   100%;
+  font-size:   80%;
   /* max-width: 70%;*/
- width: 290px;
+ width: 250px;
    margin: 0px auto;
   /*  background-color :cornsilk;*/
   background-color : black;
